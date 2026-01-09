@@ -37,7 +37,7 @@ spec:
           image: alaej/travelo-frontend:dbd33d29d75c6763e0d6ee93f928fdb8378612cf
           env:
             - name: REACT_APP_BACKEND_URL
-              value: http://localhost
+              value: ""
           ports:
             - containerPort: 3000
           # --- Probes ---
