@@ -34,7 +34,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: alaej/travelo-frontend:61920a108c9f5bfdafaef1bbd80e43569a0161ad
+          image: alaej/travelo-frontend:509560303bb134825c38997d800bf1b2491e8826
           env:
             - name: REACT_APP_BACKEND_URL
               value: ""
