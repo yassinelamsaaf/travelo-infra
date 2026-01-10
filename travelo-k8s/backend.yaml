@@ -40,7 +40,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: lamsaafyassine/travelo-backend:b5e21e1538ae2d76ad10589e3c4890679bd5b8d4
+          image: lamsaafyassine/travelo-backend:057b84e278846036a8a5014777f7dcbfc5c47030
           ports:
             - containerPort: 8080
           env:
